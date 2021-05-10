@@ -1,5 +1,9 @@
 class Main {
   public static void main(String[] args) {
-    System.out.println("Hello world!");
+    int nota = 6;
+    if (nota>=5){
+      System.out.println("Aprovado");
+    }
+    
   }
 }
