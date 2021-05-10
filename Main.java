@@ -1,11 +1,8 @@
-class Main {
-  public static void main(String[] args) {
-    int nota = 6;
-    if (nota>=3){
-      System.out.println("Aprovado");
-    }
-    else{
-      System.out.println("Reprovado");
+class Repete3 {
+  public static void main(String[] args){
+    for(int i=1; i<11; i++){
+      System.out.println("Contando: " + i);
     }
   }
 }
+
